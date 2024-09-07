@@ -1,8 +1,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Summary
 
-This project consists of two tasks:
-- Determines a person's maximum skill level in a sports competition.
+This project is dockerize odoo 14:
 - Create a custom odoo module to book a room or a room in a hotel.
 
 ### Built With
@@ -28,59 +27,21 @@ Before running this project, make sure you have installed some of the tools belo
 
 1. Clone the repo
    ```sh
-   https://github.com/Galuh80/tunas_ridean.git
+   https://github.com/Galuh80/odoo-docker.git
    ```
 2. Move to directory
    ```sh
-   cd tunas_ridean
+   cd odoo-docker/
    ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-If you want to run the first application, then you have to go to the task_one folder:
-
-1. Run application
-   ```sh
-   cd task_one
-   ```
-2. Execute command
-   ```sh
-   python3 main.py
-   ```
-
-If you want to run the second application, then you have to go to the task_one folder:
-
-SETUP CONFIG: You have to set several variables in the config.conf file which is in the conf folder
-
-1. Run application
+1. Run docker-commpose
    ```sh
    cd task_two
    ```
-2. Execute command
-   ```sh
-   cd odoo-14.0
-   ```
-3. Install virtual environment
-   ```sh
-   python3 -m venv env
-   ```
-4. Activate the environmnet
-   ```sh
-   source env/bin/activate
-   ```
-5. Install requirements
-   ```sh
-   pip install -r install.txt
-   ```
-6. Run Odoo
-   ```sh
-   cd ..
-   ```
-   ```sh
-   python3 odoo-14.0/odoo-server -c conf/config.conf
-   ```
-7. Install module
+2. Install module
    ![Alt text](images/example.png)
 
 <!-- USAGE EXAMPLES -->
