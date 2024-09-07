@@ -37,12 +37,15 @@ Before running this project, make sure you have installed some of the tools belo
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+1. Install Docker extension in VS Code
+   ![Alt text](Screenshots/odoo3.png)
+
 1. Run docker-commpose
-   ```sh
-   cd task_two
-   ```
+   - Right click in docker-compose.yml then choose docker-compose up
+   
 2. Install module
-   ![Alt text](images/example.png)
+   ![Alt text](Screenshots/odoo1.png)
+   ![Alt text](Screenshots/odoo2.png)
 
 <!-- USAGE EXAMPLES -->
 ## API Swagger
